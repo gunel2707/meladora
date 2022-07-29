@@ -1,0 +1,323 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+	width: 100%;
+	background: url(markus.png);
+	height: 100vh;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+.container .navbar {
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 25px;
+}
+
+.navbar ul {
+	float: right;
+	margin-right: 20px;
+}
+
+.container .tel {
+	text-decoration: none;
+	margin-left: 20px;
+	line-height: 40px;
+	color: white;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 40px;
+}
+
+.l {
+	margin-top: 0 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.a {
+	margin-left: 20px;
+}
+
+.n {
+	text-decoration: none;
+	float: right;
+	line-height: 60px;
+	margin-right: 20px;
+	color: white;
+}
+
+.c {
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+	margin: 0 8px;
+}
+
+.menu .box-container {
+	display: flex;
+	justify-content: center;
+	gap: 87px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: -15vh;
+}
+
+.menu .box-container .box {
+	padding: 2px;
+	height: 30vh;
+	width: 100%;
+	background-color: white;
+	border-radius: 15px;
+	border: 2px solid gray;
+	min-height: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	transition: translate(50%, 50%);
+	box-sizing: border-box;
+	height: 218px;
+	width: 335px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+.m {
+	padding: 15px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+}
+
+.m1 {
+	padding: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: green;
+}
+
+
+.s {
+	margin-top: 0;
+	float: right;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+	margin-right: 20px;
+}
+
+
+.mark {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.about-text {
+	display: flex;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: sans-serif;
+	font-size: 18px;
+	background-color: #f8f8f8;
+
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+}
+
+.img p {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.img p img {
+	height: 60px;
+}
+
+.baq {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.b {
+	display: flex;
+	font-family: sans-serif;
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.mehsul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mehs {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mehs a {
+	color: black;
+	text-decoration: none;
+}
+
+.meh {
+	display: flex;
+	gap: 60px;
+	margin-top: 70px;
+}
+
+.meh1 {
+	display: flex;
+	gap: 60px;
+	margin-top: 70px;
+}
+
+.meh p img {
+	height: 150px;
+}
+
+.meh1 p img {
+	height: 150px;
+}
+
+.bloglar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog {
+	display: flex;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.blog div {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	gap: 18px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	background: url(e1.png);
+	height: 100vh;
+	background-size: 100% 100%;
+}
+
+.foot {
+	display: flex;
+	justify-content: column;
+	align-items: center;
+	text-align: center;
+	gap: 80px;
+
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+
+
+.foot1 a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+}
+
+
+
+.foot2 a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+
+}
+
+
+.foot3 a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+}
+
+
+.copyr {
+	display: flex;
+	float: right;
+	font-size: 20px;
+	color: white;
+	margin-left: 1100px;
+	padding-top: 25px;
+}
+
+.copyr a {
+	color: white;
+	text-decoration: none;
+}
